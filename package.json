@@ -1,0 +1,20 @@
+{
+  "name": "fetch-socket-closed-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node example.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "engines" : {
+    "npm" : ">=10.0.0",
+    "node" : ">=20.13.1"
+  }
+}

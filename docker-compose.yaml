@@ -1,0 +1,8 @@
+services:
+  example:
+    image: node:20.13.1-slim
+    working_dir: /srv/www/
+    entrypoint: "bash"
+    command: "-c 'npm ci;npm start'"
+    volumes:
+      - "./:/srv/www/"
